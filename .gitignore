@@ -8,3 +8,9 @@ __pycache__/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# datasets
+/dataset
+
+# models
+/models

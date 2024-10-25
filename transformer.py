@@ -5,7 +5,6 @@ import numpy as np
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 channel_number = 512
 
-
 class ScaledDotProductAttention(nn.Module):
     def __init__(self, QKVdim):
         super(ScaledDotProductAttention, self).__init__()

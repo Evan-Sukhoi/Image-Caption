@@ -32,6 +32,7 @@ def create_input_files(dataset, karpathy_json_path, image_folder, captions_per_i
     """
 
     assert dataset in {'coco', 'flickr8k', 'flickr30k'}
+    print("Using Dataset: " + dataset)
 
     # Read Karpathy JSON
     with open(karpathy_json_path, 'r') as j:
